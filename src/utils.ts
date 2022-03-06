@@ -1,5 +1,3 @@
-export default {}
-
 export function getRoot(nodes: IDoc[]) {
 	return nodes.find((el) => !el.parentId)
 }
